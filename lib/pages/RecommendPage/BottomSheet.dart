@@ -240,7 +240,7 @@ showAtFriendPage(BuildContext context){
   Navigator.of(context).push(new MaterialPageRoute(
       builder: (BuildContext context) {
         return  MultiProvider(
-          providers: [ChangeNotifierProvider(builder:(context)=>AtUserProvider())],
+          providers: [ChangeNotifierProvider(create:(context)=>AtUserProvider())],
           child: AtFriendPage()
         );
       },

@@ -21,7 +21,7 @@ class CameraPage extends StatelessWidget {
       body: MultiProvider(
           providers: [
             ChangeNotifierProvider(
-              builder: (_) => CameraProvider(),
+              create: (_) => CameraProvider(),
             )
           ],
           child: CameraMain(

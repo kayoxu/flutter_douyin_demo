@@ -82,7 +82,7 @@ class _BtmBarState extends State<BtmBar> {
                 builder: (context) => MultiProvider(
                         providers: [
                           ChangeNotifierProvider(
-                            builder: (context) => PostsGalleryProvider(),
+                            create: (context) => PostsGalleryProvider(),
                           )
                         ],
                         child: SameCityMain(

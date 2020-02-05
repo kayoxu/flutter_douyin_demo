@@ -71,7 +71,7 @@ class RecommendPage extends StatelessWidget {
     return MultiProvider(
         providers: [
           ChangeNotifierProvider(
-            builder: (context) => RecommendProvider(),
+            create: (context) => RecommendProvider(),
           )
         ],
         child: Scaffold(

@@ -29,7 +29,7 @@ dependencies:
   provider: 
   lpinyin:
   sticky_headers:
-  shared_preferences: ^0.5.3
+  shared_preferences: ^0.5.3+4
   json_annotation:
   flutter_swiper:
   stretchy_header:
